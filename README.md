@@ -2,4 +2,4 @@
 
 How to change UIView size in Xib UITableViewCell.
 
-![Bar](https://github.com/mnaruse/BarSizeChangeInXibTableViewCell/blob/master/assets/bar.png)
+<img src="https://github.com/mnaruse/BarSizeChangeInXibTableViewCell/blob/master/assets/bar.png" width="400">
