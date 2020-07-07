@@ -13,6 +13,10 @@
 		2867927D24B50EED00F2B3ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2867927B24B50EED00F2B3ED /* Main.storyboard */; };
 		2867927F24B50EEE00F2B3ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2867927E24B50EEE00F2B3ED /* Assets.xcassets */; };
 		2867928224B50EEE00F2B3ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2867928024B50EEE00F2B3ED /* LaunchScreen.storyboard */; };
+		2867929224B50FC300F2B3ED /* BarSizeChangeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2867928A24B50FC300F2B3ED /* BarSizeChangeModel.swift */; };
+		2867929324B50FC300F2B3ED /* BarSizeChangeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2867928B24B50FC300F2B3ED /* BarSizeChangeTableViewCell.xib */; };
+		2867929424B50FC300F2B3ED /* BarSizeChangeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2867928C24B50FC300F2B3ED /* BarSizeChangeTableViewCell.swift */; };
+		2867929524B50FC300F2B3ED /* BarSizeChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2867928D24B50FC300F2B3ED /* BarSizeChangeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		2867927E24B50EEE00F2B3ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2867928124B50EEE00F2B3ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2867928324B50EEE00F2B3ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2867928A24B50FC300F2B3ED /* BarSizeChangeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarSizeChangeModel.swift; sourceTree = "<group>"; };
+		2867928B24B50FC300F2B3ED /* BarSizeChangeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BarSizeChangeTableViewCell.xib; sourceTree = "<group>"; };
+		2867928C24B50FC300F2B3ED /* BarSizeChangeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarSizeChangeTableViewCell.swift; sourceTree = "<group>"; };
+		2867928D24B50FC300F2B3ED /* BarSizeChangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarSizeChangeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +68,23 @@
 				2867927724B50EED00F2B3ED /* SceneDelegate.swift */,
 				2867927924B50EED00F2B3ED /* ViewController.swift */,
 				2867927B24B50EED00F2B3ED /* Main.storyboard */,
+				2867928924B50FC300F2B3ED /* BarSizeChange flow */,
 				2867927E24B50EEE00F2B3ED /* Assets.xcassets */,
 				2867928024B50EEE00F2B3ED /* LaunchScreen.storyboard */,
 				2867928324B50EEE00F2B3ED /* Info.plist */,
 			);
 			path = BarSizeChangeInXibTableViewCell;
+			sourceTree = "<group>";
+		};
+		2867928924B50FC300F2B3ED /* BarSizeChange flow */ = {
+			isa = PBXGroup;
+			children = (
+				2867928A24B50FC300F2B3ED /* BarSizeChangeModel.swift */,
+				2867928B24B50FC300F2B3ED /* BarSizeChangeTableViewCell.xib */,
+				2867928C24B50FC300F2B3ED /* BarSizeChangeTableViewCell.swift */,
+				2867928D24B50FC300F2B3ED /* BarSizeChangeViewController.swift */,
+			);
+			path = "BarSizeChange flow";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +145,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2867929324B50FC300F2B3ED /* BarSizeChangeTableViewCell.xib in Resources */,
 				2867928224B50EEE00F2B3ED /* LaunchScreen.storyboard in Resources */,
 				2867927F24B50EEE00F2B3ED /* Assets.xcassets in Resources */,
 				2867927D24B50EED00F2B3ED /* Main.storyboard in Resources */,
@@ -140,6 +161,9 @@
 			files = (
 				2867927A24B50EED00F2B3ED /* ViewController.swift in Sources */,
 				2867927624B50EED00F2B3ED /* AppDelegate.swift in Sources */,
+				2867929424B50FC300F2B3ED /* BarSizeChangeTableViewCell.swift in Sources */,
+				2867929524B50FC300F2B3ED /* BarSizeChangeViewController.swift in Sources */,
+				2867929224B50FC300F2B3ED /* BarSizeChangeModel.swift in Sources */,
 				2867927824B50EED00F2B3ED /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +311,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D36U9R66JG;
 				INFOPLIST_FILE = BarSizeChangeInXibTableViewCell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +330,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D36U9R66JG;
 				INFOPLIST_FILE = BarSizeChangeInXibTableViewCell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
